@@ -1,0 +1,24 @@
+def calculator():
+    a=int(input())
+    choice=int(input("1.Addition\n2.Subtraction\n3.Multiplication\n4.Division\n5.square root\n6.square\n7.power\n"))
+    if (choice==1):
+        b=int(input())
+        print("A=",a,"B=",b,"Ans=",a+b)
+    if (choice==2):
+        b=int(input())
+        print("A=",a,"B=",b,"Ans=",a-b)
+    if (choice==3):
+        b=int(input())
+        print("A=",a,"B=",b,"Ans=",a*b)                      
+    if (choice==4):
+        b=int(input())
+        print("A=",a,"B=",b,"Ans=",a/b)
+    if (choice==5):
+        print("A=",a,"Ans=",a**0.5)
+    if (choice==6):
+        print("A=",a,"Ans=",a**2)
+    if (choice==7):
+        x=int(input())
+        print("A=",a,"Ans=",a**x)
+    
+calculator()
